@@ -28,7 +28,7 @@ if not os.path.exists(dir+"tmp/out-images"):
 #downloads the html from the searchterms given
 for terms in searchterms:
     #uses wget in terminal to download file, should use the wget for python but i cant be bothered
-    os.system("wget https://www.pexels.com/search/" + terms + " -O " + dir + "tmp/html/" + terms + ".html")
+    os.system("wget https://www.pexels.com/search/" + terms + " -O '" + dir + "tmp/html/" + terms + ".html'")
 
 #get urls of photos from html file
 urls = []
