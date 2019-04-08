@@ -6,7 +6,7 @@ from PIL import Image, ImageFilter
 #search terms to get images of
 #searchterms = ['White', 'silver', 'grey', 'black', 'navy', 'blue', 'cerulean', 'sky blue', 'turquoise', 'blue-green', 'azure', 'teal', 'cyan', 'green', 'lime', 'yellow', 'gold', 'amber', 'orange', 'brown', 'orange-red', 'red', 'maroon', 'rose', 'red-violet', 'pink', 'magenta', 'purple', 'blue-violet', 'indigo', 'violet', 'peach', 'apricot', 'ochre', 'plum']
 #searchterms = ['amber', 'orange', 'brown', 'orange-red', 'red'] #reds
-searchterms = ['navy', 'blue', 'cerulean', 'sky blue', 'turquoise', 'blue-green']
+searchterms = ['blue', 'cerulean', 'sky blue', 'turquoise', 'blue-green'] #blue
 
 dir = "blue/" #directory to use
 fps = 12 #the frames per second the video runs at
